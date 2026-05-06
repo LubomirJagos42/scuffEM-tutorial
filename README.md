@@ -43,3 +43,6 @@ Xubuntu Virtual Machine - scuff-em installation
 	
 	- add to PATH:
 		> export PATH=${PATH}:~/Documents/scuff-em-installation/bin
+
+    - permanently set PATH for user:
+        > echo 'export PATH=${PATH}:~/Documents/scuff-em-installation/bin' >> ~/.bashrc && source ~/.bashrc
